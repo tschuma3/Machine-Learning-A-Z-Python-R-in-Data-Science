@@ -43,3 +43,6 @@ Residual (R) Squared
         -- <0.4 = Terrible
         -- <0 = Model makes no sense for this data
     -- Adjusted R Squared
+    -- Evaluating the Model's Performance
+        -- from sklearn.metrics import r2_score
+        -- r2_score(y_test, y_pred)
