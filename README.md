@@ -33,3 +33,13 @@ Bulding a Model
             -- Step 2: Construct All Possible Regression Models 2^n-1 total combinations
             -- Step 3: Select the one with the best criterion
             -- FIN: Your Model is Ready
+
+Residual (R) Squared
+    -- Goodness of fit for the model (greater is better)
+    -- Rule of thumb
+        -- 1.0 = Perfect fit (suspicious)
+        -- ~0.9 = Very good
+        -- <0.7 = Not great
+        -- <0.4 = Terrible
+        -- <0 = Model makes no sense for this data
+    -- Adjusted R Squared
