@@ -57,3 +57,11 @@ Cumulative Accuracy Profile (CAP)
         -- 70% < X < 80% = Good
         -- 60% < X < 70% = Poor
         -- X < 60% = Rubbish
+
+Dendrograms
+    -- Uses euclidean distance (dissimilarity) to figure out which clusters are closer and should be combined
+    -- How Heirarchical Cluster Uses Dendrograms
+        -- Look at horizontal levels and set thresholds
+            -- Don't want the dissimilarity to be higher than the threshold
+        -- Finding the Optimal Number of Clusters
+            -- Finding the longest vertical line as it crosses an extended horizontal line  
