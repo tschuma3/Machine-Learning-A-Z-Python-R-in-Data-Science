@@ -16,7 +16,7 @@ Bulding a Model
             -- Step 4: Remove the predictor
             -- Step 5: Fit model without this variable
             -- FIN: Your Model is Ready
-        3. Forward Selection -->            Stepwise Regression refere to 2, 3, and 4, but mostly 4
+        3. Forward Selection -->                                                                                                Stepwise Regression refere to 2, 3, and 4, but mostly 4
             -- Step 1: Select a Significance Level (SL) to stay in the model (e.g. SL = 0.05)
             -- Step 2: Fit all simple regression models y ~ xn Select the one with the lowest P-values
             -- Step 3: Keep this variable and fit all possible models with one extra predictor added to the one you already have
