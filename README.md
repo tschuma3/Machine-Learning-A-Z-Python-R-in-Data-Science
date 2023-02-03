@@ -46,3 +46,14 @@ Residual (R) Squared
     -- Evaluating the Model's Performance
         -- from sklearn.metrics import r2_score
         -- r2_score(y_test, y_pred)
+
+Cumulative Accuracy Profile (CAP)
+    -- CAP Analysis
+        -- Equation
+            -- Accuracy Ratio = AR / AP
+    -- Table
+        -- 90% < X < 100% = Too Good --> Could be overfitting or one of the independent variables is post facto (the variable is looking into the future and shouldn't be in it)
+        -- 80% < X < 90% = Very Good
+        -- 70% < X < 80% = Good
+        -- 60% < X < 70% = Poor
+        -- X < 60% = Rubbish
