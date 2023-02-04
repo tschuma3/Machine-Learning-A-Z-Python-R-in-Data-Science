@@ -22,9 +22,9 @@ X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
 #Applying Kernel PCA
-kernel_pca = KernelPCA(n_components=2, kernel='rbf')
-X_train = kernel_pca.fit_transform(X_train)
-X_test = kernel_pca.transform(X_test)
+kpca = KernelPCA(n_components=2, kernel='rbf')
+X_train = kpca.fit_transform(X_train)
+X_test = kpca.transform(X_test)
 
 #Training the Logistical Regression model on the Training set
 classifier = LogisticRegression(random_state = 0)
