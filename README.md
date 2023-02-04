@@ -65,3 +65,9 @@ Dendrograms
             -- Don't want the dissimilarity to be higher than the threshold
         -- Finding the Optimal Number of Clusters
             -- Finding the longest vertical line as it crosses an extended horizontal line  
+
+Apriori Algorithm
+    -- Step 1: Set the minimum support and confidence
+    -- Step 2: Take all the subsets in transactions having higher support than minimum support
+    -- Step 3: Take all the rules of these subsets having higher confidence than minimum confidence
+    -- Step 4: Sort the rules by decreasing lift
